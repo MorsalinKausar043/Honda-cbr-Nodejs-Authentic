@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda-cbr</title>
+    <!-- css setup  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap css setup  -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <!-- favicon setup -->
+     <link rel="shortcut icon" href="./images/bike-2.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- preloader part start -->
+    <%- include("../partials/preloader.ejs") -%> 
+    <!-- preloader part end  -->
+
+    <!-- -------------------- -->
+    <!-- header part start -->
+    <!-- -------------------- -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <!-- navbar part start -->
+                <%- include("../partials/navbar.ejs") -%> 
+                <!-- navbar part end  -->
+                <div class="col-10 col-md-12 mx-auto pt-3 pb-5">
+                    <div class="row">
+                        <div
+                            class="col-12 col-md-6 d-flex justify-content-center align-items-start flex-column text-light">
+                            <p><small>Computer-controlled digital transistorized with electronic advance</small></p>
+                            <h1 class="fw-bold mt-1 mb-3 header-title">Honda CBR 300R</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <a href="/extra" class="btn button px-4 py-2">Purchase</a>
+                        </div>
+                        <div class="col-12 col-md-6 mt-5 mt-md-0">
+                            <img src="./images/header-bike.png" class="img-fluid" alt="headerbikepng">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- -------------------- -->
+    <!-- header part end -->
+    <!-- -------------------- -->
+
+    <!-- -------------------- -->
+    <!-- main part start -->
+    <!-- -------------------- -->
+
+    <!-- fetured bike section start  -->
+    <section class="container my-5" id="shop">
+        <div class="row">
+            <div class="fetured-title d-flex justify-content-center align-items-center flex-column">
+                <h1 class="fw-bold">Fetured Bikes 2021</h1>
+                <p class="text-capitalize"><small class="small-title">best bike collection</small></p>
+            </div>
+            <div class="col-10 col-md-12 mx-auto my-5">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                        <img class="w-75 fetured-img" src="./images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center my-5 my-md-0">
+                        <img class="w-75" src="./images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                        <img class="w-75 fetured-img" src="./images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fetured bike section end  -->
+
+    <!-- latest section start  -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="letest-title d-flex justify-content-center align-items-center">
+                <h1 class="text-capitalize fw-bold">letest news</h1>
+            </div>
+            <div class="co-10 col-md-12 my-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <article class="card rounded p-2">
+                            <img src="./images/bike-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="/extra" class="px-4 py-2 text-capitalize btn button"> read more</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card rounded p-2">
+                            <img src="./images/bike-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Motorcycles & Scooters</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="/extra" class="px-4 py-2 text-capitalize btn button-outline"> read more</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card rounded p-2">
+                            <img src="./images/bike-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <a href="/extra" class="px-4 py-2 text-capitalize btn button-outline"> read more</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- latest section send  -->
+
+    <!-- happy clints says section start  -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="letest-title d-flex justify-content-center align-items-center">
+                <h1 class="text-capitalize fw-bold">Happy <span class="title-span">Clients says</span></h1>
+            </div>
+            <div class="co-10 col-md-12 my-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <article class="card rounded p-2 d-flex justify-content-center align-items-center">
+                            <img src="./images/user-1.png" class="card-img-top w-50" alt="...">
+                            <div class="card-body text-center">
+                                <p><small>Slate helps you see how<br>many more days you need<br>to work to reach your financial<br>goal for the month and year</small></p>
+                                <div class="ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <a href="/" class="text-decoration-none my-2 d-inline-block">Jack Dusen</a>
+                                <span class="d-block">Banker</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card rounded p-2 d-flex justify-content-center align-items-center">
+                            <img src="./images/user-2.png" class="card-img-top w-50" alt="...">
+                            <div class="card-body text-center">
+                                <p><small>Slate helps you see how<br>many more days you need<br>to work to reach your financial<br>goal for the month and year</small></p>
+                                <div class="ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <a href="/" class="text-decoration-none my-2 d-inline-block">Jenifer Lopz</a>
+                                <span class="d-block">Banker</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card rounded p-2 d-flex justify-content-center align-items-center">
+                            <img src="./images/user-3.jpg" class="card-img-top w-50 rounded-circle" alt="...">
+                            <div class="card-body text-center">
+                                <p><small>Slate helps you see how<br>many more days you need<br>to work to reach your financial<br>goal for the month and year <br> Lorem ipsum dolor sit amet. <br> Lorem ipsum dolor sit amet.</small></p>
+                                <div class="ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <a href="/" class="text-decoration-none my-2 d-inline-block">Sakira</a>
+                                <span class="d-block">Banker</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- happy clints says section end  -->
+
+    <!-- Frequently Asked Questions section start  -->
+    <div class="container my-5" id="news">
+        <div class="row">
+            <div class="col-10 col-md-12 mx-auto d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="Asked-title text-center mb-5">
+                        <h1 class="fw-bold">Frequently Asked <span class="title-span">Questions</span></h1>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <img class="w-75" src="./images/faq.png" alt="faqpng">
+                    </div>
+                    <div class="col-12 col-md-6 mt-5 mt-md-0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the most important things I should know about riding a bike?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I tell if my helmet is old and I need a new one?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Frequently Asked Questions section end  -->
+    <!-- -------------------- -->
+    <!-- 1st bonus section  -->
+    <section class="">
+        <div class="container-fluid py-5 bg-dark">
+         <div class="row">
+             <div class="col-12 col-md-12 mx-auto ">
+                 <div class="row justify-content-center align-items-center ">
+                     <div class="col-12 col-md-6 ">
+                         <img src="./images/awesomebike.jfif" class="img-fluid" alt="">
+                         <div class="copyright mt-3 mt-md-0">
+                         </div>
+                     </div>
+                     <div class="col-12 col-md-6  mb-5 mb-md-0  d-flex justify-content-center align-items-start flex-column ">
+                        <h4 class="fw-bold text-danger">Don’t love to mow?</h4>
+                        <h2 class="text-white my-3 fw-bold">Let Miimo do it for you<span class="fw-bold text-danger">.</span></h2>
+                        <p class="text-light">Miimo is the intelligent robotic lawn mower from Honda. Miimo automatically clips your lawn with computerized precision, resulting in a perfectly manicured lawn. It’s convenient, intelligent, and autonomous. So you have more free time to do everything you want to – including absolutely nothing at all.</p>
+                        <a href="/extra" class="btn btn-danger">Learn More</a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+     </section>
+
+      <!-- 2nd bonus section  -->
+
+      <section class="">
+        <div class="container py-5">
+         <div class="row">
+             <div class="col-10 col-md-12 mx-auto ">
+                 <div class="row justify-content-center align-items-center ">
+                     <div class="col-12 col-md-6 mb-5 mb-md-0d-flex justify-content-center align-items-start flex-column order-2 order-md-1">
+                        <h2><span class="fw-bold honda-title text-uppercase">Honda</span> World Most</h2>
+                        <h2 class="mt-1 mb-3">Latest <span class="fw-bold h1">Motorcycles Store</span></h2>
+                        <p><strong class="honda-title">HONDA</strong> - The objective of HONDA is to create a state wide area network that will improve government efficiency through connectivity. The Odisha State Wide Area Network (OSWAN) would serve as the backbone network for data, video and voice communications throughout the State which includes 1 State Head Quarter (SHQ), 30 District Head Quarters (DHQ), 284 Block Head Quarters (BHQ) and 61 Horizontal Offices.</p>
+                        <h3 class="fw-bold">Have Any Questions?</h3>
+                        <h5 class="fw-bold d-flex justify-content-start align-items-start mt-2"><i class="fas call-icon fa-phone-alt bg-warning p-2"> </i><small class="py-2 px-3 bg-dark text-white number">12345678911</small></h5>
+                     </div>
+                     <div class="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center align-items-center mb-5 mb-md-0">
+                        <img src="./images/sportbike.svg" class="img-fluid" alt="">
+                        <div class="copyright ">
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+     </section>
+    
+
+    <!-- main part end -->
+    <!-- -------------------- -->
+
+    <!-- -------------------- -->
+    <!-- footer part start -->
+    <!-- -------------------- -->
+    <footer class="py-5 footer-bg">
+       <div class="container">
+        <div class="row">
+            <div class="col-10 col-md-12 mx-auto">
+                <div class="row justify-content-center align-items-center ">
+                    <div class="col-12 col-md-8 order-2 order-md-1">
+                        <div class="download-link">
+                            <a href="/" class="btn text-white">download Now</a>
+                            <a href="/" class="btn text-white">Licence</a>
+                        </div>
+                        <div class="mini-nav-link">
+                            <a href="/" class="btn text-white">About</a>
+                            <a href="/" class="btn text-white">Features</a>
+                            <a href="/" class="btn text-white">Pricing</a>
+                            <a href="/" class="btn text-white">Careers</a>
+                            <a href="/" class="btn text-white">Help</a>
+                            <a href="/" class="btn text-white">Privacy Policy</a>
+                        </div>
+                        <div class="copyright mt-3 mt-md-0">
+                            <p><small class="text-white ">&copy2020 bike. All rights reserved</small></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 order-1 order-md-2 d-flex justify-content-center align-items-center flex-column">
+                        <p class="text-white">Get The App</p>
+                        <img src="./images/6 (1).svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </footer>
+    <!-- -------------------- -->
+    <!-- footer part end -->
+    <!-- -------------------- -->
+
+    <!-- bootstrap js setup  -->
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+    </script>
+</body>
+
+</html>

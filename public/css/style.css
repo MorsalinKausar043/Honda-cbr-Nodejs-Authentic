@@ -1,0 +1,118 @@
+/* font awesome cdn link  */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+/* google font link set up  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* common css start  */
+body{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.margin-Y{
+    margin: 100px 0;
+}
+
+.btn.button{
+    background: #E76F51;
+    color: white;
+    transition: all .3s linear;
+}
+
+.btn.button:hover , .btn.button-outline:hover {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn.button-outline:hover{
+    background: #E76F51;
+}
+
+.btn.button-outline{
+    border: 2px solid #E76F51;
+    color: #E76F51;
+    transition: all .3s linear;
+}
+
+
+/* common css end  */
+
+/* header part start  */
+
+.header , .navbar-2{
+    background: #264653;
+}
+
+h1.header-title{
+    font-size: 48px;
+}
+
+
+/* header part end  */
+
+/* main part start  */
+
+/* fetures part start  */
+
+.small-title {
+    color: #E76F51;
+}
+
+.small-title::after{
+    content: "";
+    width: 60%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background:  #E76F51;
+}
+
+.fetured-img{
+    filter: grayscale(1);
+}
+
+/* fetures part end  */
+
+/* happy clints says section start */
+
+.title-span , .ratings{
+    color: #E76F51;
+}
+/* happy clints says section end */
+
+/* bonus part  */
+
+.honda-title{
+    color: rgb(238, 176, 4);
+}
+
+.call-icon{
+    font-size: 21px;
+}
+
+.number{
+    letter-spacing: 1.5px;
+}
+/* main part end */
+
+/* footer part start  */
+
+.footer-bg{
+    background: #0B0D17;
+}
+
+/* footer part end  */
+
+/* use preloader  */
+
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    background: #fff url("../images/128x128.gif") no-repeat center;
+    background-size: 10%;
+}
+
