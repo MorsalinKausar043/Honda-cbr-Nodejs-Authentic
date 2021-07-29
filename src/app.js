@@ -22,7 +22,6 @@ app.set("view engine", "ejs");
 app.set("views", DynamcPath);
 
 
-
 // app llistining
 
 app.listen(port, () => console.log(`express port is ${port}!`));

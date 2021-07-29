@@ -93,12 +93,12 @@ router.post("/registration", async (req, res) => {
             
         } else
         {
-            res.status(201).render("error5", { para: "invalid password" });
+            res.status(404).render("error4", { para: "invalid password" });
         }
         
     } catch (error)
     {
-        res.status(201).render("error5", { para: error });
+        res.status(404).render("error4", { para: error });
     }
 });
 
@@ -122,7 +122,7 @@ router.post("/login", async (req, res) => {
     } catch (error)
     {
         
-        res.status(201).render("error5", { para: error });
+        res.status(404).render("error4", { para: error });
     }
 });
 
