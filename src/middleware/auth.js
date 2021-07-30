@@ -11,7 +11,8 @@ const auth = async (req, res, next) => {
         req.UserMatch = UserMatch;
         next();
     } catch (error) {
-        res.status(201).render("error5", { para: "Please Login" });
+        // res.status(201).render("error5", { para: "Please Login" });
+        res.status(201).render("login");
         // console.log(error)
     }
 }
